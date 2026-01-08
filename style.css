@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #faf9f7;
+  color: #222;
+  font-family: "Georgia", serif;
+}
+
+.container {
+  max-width: 640px;
+  margin: 80px auto;
+  padding: 0 24px;
+}
+
+h1 {
+  font-weight: normal;
+  margin-bottom: 48px;
+}
+
+.poem-list {
+  list-style: none;
+  padding: 0;
+}
+
+.poem-list li {
+  margin-bottom: 32px;
+}
+
+.poem-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.poem-list a:hover {
+  text-decoration: underline;
+}
+
+.date {
+  display: block;
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 4px;
+}
+
+.back {
+  text-decoration: none;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.poem h2 {
+  margin-top: 32px;
+}
+
+.poem-text {
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-top: 40px;
+}
